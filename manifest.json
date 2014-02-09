@@ -1,0 +1,22 @@
+{
+    "name": "VK Feed",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": "vk-logo.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "offline_enabled": false,
+    "minimum_chrome_version": "28",
+    "permissions": [
+        "alarms",
+        "background",
+        "storage",
+        "tabs",
+        "activeTab",
+        "unlimitedStorage",
+        "*://vk.com/*"
+    ]
+}
