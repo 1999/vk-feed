@@ -103,8 +103,8 @@ chrome.alarms.onAlarm.addListener(function (alarmInfo) {
 });
 
 chrome.alarms.get(ALARM_NAME, function (alarmInfo) {
-    // if (alarmInfo)
-    //     return;
+    if (alarmInfo)
+        return;
 
     chrome.alarms.create(ALARM_NAME, {
         when: Date.now(),
