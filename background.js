@@ -1,5 +1,5 @@
 var ALARM_NAME = 'delay';
-var ALARM_FREQUENCY_MINUTES = 10;
+var ALARM_FREQUENCY_MINUTES = 60;
 var NEWS_URL = 'https://vk.com/feed';
 
 
